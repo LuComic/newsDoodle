@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/roboto';
+@import '@fontsource-variable/chivo-mono';
+@import '@fontsource/anton';
+
+:root {
+	--beige-text: #c5a49d;
+	--light-text: white;
+	--background: #ebf1f5;
+	--dark-text: #22223b;
+	--secondary-text: #6d6f7a;
+	--rose-red: #ff1f57;
+	--orange: #fd9900;
+
+	--big-header: 'Anton', sans-serif;
+}
+
+body {
+	background-color: var(--background);
+	font-family: 'Chivo Mono Variable', monospace;
+}
